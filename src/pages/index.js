@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 import ProductCard from '../components/ProductCard';
 import FilterSection from '../components/FilterSection';
 import axios from 'axios';
-import '../styles/globals.css';
 
 const Home = () => {
   const [products, setProducts] = useState([]);
